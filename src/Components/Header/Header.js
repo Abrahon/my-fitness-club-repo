@@ -1,10 +1,11 @@
-import React from 'react';
 
+import React from 'react';
 import './Header.css';
 
 const Header = () => {
     return (
         <div className='header'>
+
             <h1>Fitness Club</h1>
 
         </div>
