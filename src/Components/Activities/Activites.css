@@ -35,8 +35,11 @@
     display: flex;
     margin: 40px 0;
 }
+@media screen and (min-width:720px){
 
-@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 668px) {
 
     .activites-item-container {
         display: grid;

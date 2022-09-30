@@ -3,6 +3,9 @@ import Break from '../Break/Break';
 import Information from '../Information/Information';
 import Item from '../Item/Item';
 import './Activites.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Activites = () => {
     const [activites, setActivites] = useState([])
     const [list, setList] = useState([])
@@ -21,8 +24,8 @@ const Activites = () => {
     return (
         <div className='activites-container'>
 
-            <div className="activites-item-container my-3 ">
-                <h2 className='  title'>ACTIVE GYM & FEETNESS CLUB</h2>
+            <div className="activites-item-container my-3">
+                <h2 className='  title'>BODY FITNESS CLUB</h2>
                 <h5 className='mb-5'>Select today’s exercise</h5>
                 <div className='grid-items'>
                     {
