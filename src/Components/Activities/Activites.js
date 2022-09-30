@@ -5,6 +5,8 @@ import Item from '../Item/Item';
 import './Activites.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
 const Activites = () => {
     const [activites, setActivites] = useState([])
@@ -25,7 +27,11 @@ const Activites = () => {
         <div className='activites-container'>
 
             <div className="activites-item-container  my-3">
-                <h2 className='  title'>BODY FITNESS CLUB</h2>
+
+                <h1 className='title'>BODY FITNESS CLUB <FontAwesomeIcon icon={faDumbbell} ></FontAwesomeIcon>
+                </h1>
+
+
                 <h5 className='mb-5'>Select today’s exercise</h5>
                 <div className='grid-items'>
                     {
@@ -41,7 +47,7 @@ const Activites = () => {
                 <Information></Information>
                 <Break list={list} ></Break>
             </div>
-        </div>
+        </div >
     );
 };
 

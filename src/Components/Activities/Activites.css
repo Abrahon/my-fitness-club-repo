@@ -7,7 +7,6 @@
 .activites-item-container {
     padding-left: 80px;
     padding-right: 80px;
-   
     margin-top: 0;
 
 }
@@ -21,7 +20,7 @@
 
 .title {
     font-size: 28px;
-    color: blue;
+    color: red;
     margin-top: 60px;
 
 }
@@ -54,7 +53,7 @@
         display: grid;
         grid-template-columns:1fr;
          width:100%;
-    
+      
        }
     
    }
