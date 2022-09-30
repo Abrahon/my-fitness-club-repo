@@ -3,7 +3,7 @@ import './Question.css'
 
 const Question = () => {
     return (
-        <div className='question'>
+        <div className='question-container'>
             <div className='question-1'>
                 <h1> 1. How React works?</h1>
                 <p>At its very core, React basically maintains a tree for you. This tree is able to do efficient diff computations on the nodes.
