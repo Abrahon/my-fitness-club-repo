@@ -1,16 +1,11 @@
+
 import './App.css';
-import Dumbbell from './Components/Dumbbell/Dumbbell';
-import Exersises from './Components/Exsersises/Exersises';
-import Header from './Components/Header/Header';
+import Activites from './components/Activities/Activites';
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <Exersises></Exersises>
-      <Dumbbell></Dumbbell>
-
-
+    <div >
+      <Activites></Activites>
 
     </div>
   );

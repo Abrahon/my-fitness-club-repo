@@ -1,0 +1,42 @@
+.item img {
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+.item {
+    border: 1px solid rgb(239, 229, 229);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    /* background-color: white; */
+
+
+
+}
+
+.btn-cart {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+    /* 
+    
+    border-radius: 0 0 8px 8px;
+
+    width: 100%;
+  
+    bottom: 0; */
+
+}
+
+.btn-cart:hover {
+    background-color: rgb(6, 29, 100);
+    transition: 1s;
+}

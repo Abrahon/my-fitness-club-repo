@@ -1,0 +1,50 @@
+.activites-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.activites-item-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-color: rgb(236, 236, 225); */
+    margin-top: 0;
+
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+
+}
+
+.title {
+    font-size: 28px;
+    color: blue;
+    margin-top: 60px;
+
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.img-information {
+    display: flex;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .activites-item-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .activites-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
