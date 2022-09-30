@@ -40,7 +40,7 @@ const Break = ({ list }) => {
             <div className='mt-5'>
                 <h4 className=''>Exercise Details</h4>
                 <h5 className='my-4 time'>Exercise time :{times} seconds </h5>
-                <h5 className='time'>Break time:{ }</h5>
+                <h5 className='time'>Break time:{breakTime}</h5>
 
             </div>
             <button onClick={notify} className='btn-cart mt-5'>

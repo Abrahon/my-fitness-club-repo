@@ -36,6 +36,8 @@
 }
 @media screen and (max-widt:668){
     .informatin-list{
+        width:100%;
+        flex-direction:column;
       
 
     }

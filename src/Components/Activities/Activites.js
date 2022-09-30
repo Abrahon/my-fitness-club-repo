@@ -24,7 +24,7 @@ const Activites = () => {
     return (
         <div className='activites-container'>
 
-            <div className="activites-item-container my-3">
+            <div className="activites-item-container  my-3">
                 <h2 className='  title'>BODY FITNESS CLUB</h2>
                 <h5 className='mb-5'>Select today’s exercise</h5>
                 <div className='grid-items'>
